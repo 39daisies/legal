@@ -207,6 +207,21 @@ li {
   color: var(--muted);
 }
 
+/* Support page contact callout (same role as Quope’s dashed contact box). */
+.contact-box {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1.15rem 1.35rem;
+  border-radius: var(--radius);
+  background: var(--cream);
+  border: 1.5px dashed var(--border-strong);
+  color: var(--ink);
+}
+
+.contact-box a {
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
 .lang-note {
   font-weight: 600;
 }
